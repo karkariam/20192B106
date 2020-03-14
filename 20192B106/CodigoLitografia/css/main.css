@@ -1,0 +1,296 @@
+/*normalize*/
+
+/*banner*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+body {
+    background-color: white;
+}
+.ImagenIndex {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    letter-spacing: 7px;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/originals/19/a5/dc/19a5dc18ee406e69f8afc878746e2c14.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.TituloIndex {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: .6;
+    margin: 10px 0;
+}
+/*button*/
+
+.white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 2px;
+    color: #FFF;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+}
+
+.white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+}
+/*menu*/
+header{
+    height: 200px;    
+}
+.navegacion{      
+    margin:auto;
+    padding:auto;
+    clear: both;
+    background-color: black;
+    width: auto;
+    height: 50px;
+    
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 20px 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+}
+/*submenu*/
+.submenu{
+    margin: auto;
+    /* padding: auto; */
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s;
+    list-style: none;
+}
+.submenu li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.tituloIni{
+    font-size: 50px;
+    color: #2B5AA2;
+}
+/*pages*/
+h2{
+    /*font-weight: normal;
+    font-family: sans-serif;
+    color: #ff851b;
+    text-align: center;
+    padding: 14px 0;*/
+    font-family: "Lacquer";
+    font-size: 40px;
+    display: inline;
+    margin: auto;
+    text-align:center; 
+    padding:8px; 
+}
+p{
+-moz-column-count: 3;
+-moz-column-gap: 15px;
+-webkit-column-count: 3;
+-webkit-column-gap: 15px;
+column-count: 3;
+column-gap: 15px;
+font-family: impact, sans-serif;
+font-size: 15px;
+word-spacing: 1.2pt;
+line-height: 1.5;
+background-color: transparent;
+}
+article{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: none;
+}
+section{
+    background-color: none;
+    margin: 0px; 
+    padding: 20px;
+}
+.sectionUbication{
+    width: 50%;
+    float: left;
+    background-color: #F0EECE;
+    height: auto;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+.sectionUbication h2{
+    font-family: "Lacquer", sans-serif;
+}
+.sectionUbication p{
+    font-family: arial, calibri;
+    column-count: 1;
+    color: white;
+}
+.asideUbication{
+    margin-bottom: 0%;
+    width: 45%;
+    padding-bottom: 32px;
+    float:right;
+    align-content: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F0EECE;
+
+}
+/*about us*/
+.Nosotros section{
+    width: auto;
+    height: 200px ;
+    background-color: #F0EECE;
+    border: 10px;
+    border-color: #7F7B35;
+    padding: 15px;
+    margin: 40px;
+}
+.Nosotros section img{
+    width: 40%;
+    height: 80%;
+    float: right;
+    align-self: center;
+}
+.Nosotros section h2{
+    text-align: center;
+    width: auto;
+}
+.chat{
+    width: 20%;
+    float: left;
+}
+/*questions*/
+.preguntas section{
+    background-color: #F1EEAA;
+    width: auto;
+    align-content: center;
+}
+.preguntas section h1{
+    font-family: sans-serif;
+    font-size-adjust: 30px;
+    color: #D86652;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%; 
+}
+.preguntas section h2{
+    font-family: sans-serif;
+    text-align: center;
+}
+.preguntas section h4{
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.preguntas section p{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-color: black;
+    shape-margin: unset;
+}
+.tablaPromos{
+    width: 100%;
+    margin-right: 0px;
+}
+.tablaPromos td, tr{
+    align-content: left;
+}
+
+/*Footer*/
+footer{
+    height: 100px;
+    clear: both;
+    background-color: #f1f1f1 ;
+    margin-bottom: 0;
+}
+.divfoo{
+    width: 80%; 
+    float: left;
+    background-color:none;
+    text-align:left;
+    padding:10px;
+    margin-top:30px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size:12px;
+    height: auto;
+}
+.divfoo2{
+    display: inline-block;
+    float: right;
+    width: 18.5%;
+    background-color:none;
+    align-content: center;
+    margin-top:30px;
+    height: 100px;
+}
+@media only screen and (max-width: 800px) {
+  /* para tablets: */
+  main {
+    width: 80%;
+    padding: 0;
+  }
+
+  /*.right {
+            width: 100%;
+        }*/
+}
+
+@media only screen and (max-width: 500px) {
+  /* para telefonos: */
+  /*.menu,
+        .right */
+  main {
+    width: 100%;
+  }
+}
