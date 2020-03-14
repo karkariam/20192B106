@@ -4,17 +4,19 @@
 }
 
 .contenedor .form .form-header .form-title {
-  /*estilos del titulo*/
+  /*estilo primera letra del titulo */
   font-weight: normal;
   font-family: sans-serif;
-  color: #ff851b;
+  color: #70aff3;
   text-align: center;
   padding: 14px 0;
 }
 .contenedor .form .form-header .form-title span {
+  /*estilo  del titulo */
   color: #333232;
 }
 .contenedor .form {
+  /*estilo del contenedor general */
   background: #f1f1f1;
   width: 90%;
   max-width: 659px;
@@ -25,18 +27,20 @@
   border-radius: 3px;
 }
 .contenedor .form .form-label {
+  /*estilo de label */
   display: block;
-  color: #ff851b;
+  color: #70aff3;
   font-size: 16px;
   font-family: Roboto;
   position: relative;
 }
 .contenedor .form .form-input,
 .form-textarea {
+  /*estilo de text area */
   background: #ffffff;
   border: none;
   outline: none;
-  border-bottom: 2px solid#ff851b;
+  border-bottom: 2px solid#70aff3;
   width: 100%;
   padding: 12px;
   margin-bottom: 20px;
@@ -45,16 +49,19 @@
   color: #333232;
   font-family: Roboto;
 }
+
 .contenedor .form .form-textarea {
   resize: vertical;
   max-height: 150px;
   min-height: 50px;
 }
+
 .contenedor .form .btn-submit {
+  /*estilo del boton sumbit */
   width: 100%;
   font-family: Roboto;
   outline: none;
-  background: #ff851b;
+  background: #70aff3;
   font-size: 16px;
   border: none;
   color: #333232;
@@ -64,5 +71,5 @@
 }
 .contenedor .form .btn-submit:hover {
   /*cambia el color al poner el cursor encima */
-  background: #f29718;
+  background: #70aff3;
 }
