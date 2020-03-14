@@ -1,13 +1,15 @@
 <?php include('../includes/header.php');   ?>
-<br><br><br>
+<br>
+
 
 
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/estiloformulario.css">
 
+<!-- Encuesta sobre uso de internet -->
 
 <body>
-
+    <br><br><br>
     <div class="contenedor">
 
         <form id="formulario" action="" class="form">
@@ -150,11 +152,6 @@
             <input type="submit" class="btn-submit" value="Enviar">
 
         </form>
-        <br><br>
+
 
         <?php include('../includes/footer.php'); ?>
-
-
-</body>
-
-</html>

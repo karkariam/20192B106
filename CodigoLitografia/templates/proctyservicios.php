@@ -1,4 +1,4 @@
-<?php    include('../includes/header.php');   ?> 
+<?php include('../includes/header.php');   ?>
 <br><br><br>
 <!-- Carrusel con bs -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -30,4 +30,4 @@
   </a>
 </div>
 
-<?php        include( "../includes/footer.php");        ?>
+<?php include("../includes/footer.php");        ?>

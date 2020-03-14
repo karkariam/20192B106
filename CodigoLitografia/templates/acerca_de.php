@@ -1,6 +1,7 @@
 <?php include('../includes/header.php'); ?>
 
 <br><br><br>
+<!-- informacion sobre nuestra empresa -->
 <div class="container">
     <div class="row">
         <div class="col-lg-6 col-sm-12">
@@ -66,7 +67,7 @@
             <p>
                 Angarita Ardila Impresores desea conocer mas sobre sus clientes, lo invitamos a diligenciar una escuesta sobre el uso responsable del internet.
                 Clik <a href="/20192B106/CodigoLitografia/templates/encuesta.php">aqui</a> para responder la escuesta. </p>
-        </div>
+        </div> <!-- link para ir a la encuesta -->
         <div class="col-lg-6 col-sm-12">
             <img class="img-thumbnail" src="https://drive.google.com/uc?export=view&id=1AfJPMLvERav7Ft8SXXg0IqG-XGmNXbKw">
         </div>
