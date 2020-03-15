@@ -168,10 +168,6 @@ function When(info) {
   WWHTime = GetCookie("WWhenH");
   WWHTime = WWHTime * 1;
   var lastHereFormatting = new Date(WWHTime);
-  var intLastVisit =
-    lastHereFormatting.getYear() * 10000 +
-    lastHereFormatting.getMonth() * 100 +
-    lastHereFormatting.getDate();
   var lastHereInDateFormat = "" + lastHereFormatting;
   var dayOfWeek = lastHereInDateFormat.substring(0, 3);
   var dateMonth = lastHereInDateFormat.substring(4, 11);

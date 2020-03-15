@@ -20,8 +20,8 @@
 <h4>
     <div class="container">
         <div class="alert alert-success alert-dismissible">
-            <a href="#" class="close" data-dismiss="alert" aria-label="close"><span class="fa fa-times-circle"></span></a>
-            <p id="cookie1"><span class="fa fa-bookmark"></span> Bienvenido a la ANGARITA ARDILA IMPRESIONES</p>
+            <a href="#" class="close" data-dismiss="alert" aria-label="close"></span></a>
+            <p id="cookie1"><span class="fa fa-bookmark"></span> Bienvenido a ANGARITA ARDILA IMPRESIONES</p>
         </div>
     </div>
 </h4>
