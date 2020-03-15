@@ -16,7 +16,6 @@
 </article>
 
 <hr>
-<br>
 
 <h4>
     <div class="container">

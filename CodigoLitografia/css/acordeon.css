@@ -1,0 +1,69 @@
+#container-main h1 {
+  /*estilos del titulo*/
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #46d4ff;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #2c3e50;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  position: relative;
+  display: block;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  background: #2c3e50;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active,
+.accordion:hover {
+  background-color: #16a085;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#container-main {
+  margin: 40px auto;
+  width: 95%;
+  min-width: 320px;
+  max-width: 960px;
+}
+
+/**/
+.panel p {
+  margin: 0;
+  font-size: 150%;
+}
+
+.panel img {
+  display: block;
+  float: left;
+  margin: 15px 10px;
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .panel {
+    padding: 10px;
+  }
+}
