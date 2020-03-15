@@ -1,36 +1,35 @@
 /* Letra banner */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .ImagenIndex {
-    font-family: "Montserrat";
-    text-align: center;
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: auto;
-    padding: 13%;
-    background-image: url(https://i.pinimg.com/originals/19/a5/dc/19a5dc18ee406e69f8afc878746e2c14.jpg);
-    background-repeat: no-repeat;
-    /* background-attachment: auto; */
-    background-size: cover;
-    
+  font-family: "Montserrat";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  padding: 13%;
+  background-image: url(https://i.pinimg.com/originals/19/a5/dc/19a5dc18ee406e69f8afc878746e2c14.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: auto; */
+  background-size: cover;
 }
 .TituloIndex {
-    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-    background-size: cover;
-    color: transparent;
-    -moz-background-clip: text;
-    -webkit-background-clip: text;
-    text-transform: uppercase;
-    font-size: 50px;
-    line-height: .9;
-    margin: auto;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 0.9;
+  margin: auto;
 }
 @media only screen and (max-width: 600px) {
-    .TituloIndex{
-        font-size: medium;
-    }
+  .TituloIndex {
+    font-size: medium;
+  }
 }

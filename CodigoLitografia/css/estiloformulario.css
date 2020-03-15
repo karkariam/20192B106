@@ -73,3 +73,25 @@
   /*cambia el color al poner el cursor encima */
   background: #70aff3;
 }
+
+/*estilo de tablas */
+table {
+  text-align: center;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 500px;
+}
+
+table td {
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+table tr:hover {
+  background: #eee;
+}
+
+table td:hover {
+  background: #fff;
+  color: #007afd;
+}
