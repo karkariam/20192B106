@@ -1,19 +1,23 @@
 <?php include('../includes/header.php');   ?>
 <link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/acordeon.css">
+
+
 <br><BR></BR>
 
 <div class="container">
     <div class="row">
         <div>
             <h3>Multiplicacion de matrices.</h3>
-            <p>
-                Por favor ingrese los datos en la matriz 1:
-            </p>
+            <br>
         </div>
 
     </div>
 
     <form action="matriz_sol.php" method="post" enctype="multipart/form-data">
+        <hr>
+        <p>
+                Por favor ingrese los datos en la matriz 1:
+        </p>
 
         <fieldset id="matrix1">
             <table align="center">
@@ -41,9 +45,10 @@
 
             </table>
         </fieldset>
+        <br>
         <hr>
         <p>
-            por favor ingrese los datos en la matriz 2:
+            Por favor ingrese los datos en la matriz 2:
         </p>
 
         <fieldset id="matrix2">
@@ -72,8 +77,15 @@
 
             </table>
         </fieldset>
+        <br>
+        <hr>
+        <br>
+
 
         <input type="submit" class="boton boton2" value="Operar" />
+
+        <br>
+        <br>
     </form>
 
 </div>
