@@ -1,4 +1,5 @@
 <?php include('../includes/header.php');   ?>
+<link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/acordeon.css">
 <br><BR></BR>
 
 <div class="container">
@@ -15,7 +16,7 @@
     <form action="matriz_sol.php" method="post" enctype="multipart/form-data">
 
         <fieldset id="matrix1">
-            <table align="center" >
+            <table align="center">
                 <tr>
 
                     <td><input type="text" name="1-0-0" required /></td>
@@ -72,7 +73,7 @@
             </table>
         </fieldset>
 
-        <input type="submit" name="Enviar" value="Operar"/>
+        <input type="submit" class="boton boton2" value="Operar" />
     </form>
 
 </div>
