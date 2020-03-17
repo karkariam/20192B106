@@ -25,7 +25,7 @@
         </div>
     </div>
 </h4>
-
+<!--Muestra la cookie1 con el nombre y contador de vistas-->
 <script type="text/javascript">
     var impresion = "Hola <b>" + Who() + "</b>. Has visitado la página " + Count() + " veces.  La última visita fue: " + When() + ".";
     document.getElementById("cookie1").innerHTML = impresion;

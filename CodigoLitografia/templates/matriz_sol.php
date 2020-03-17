@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/estiloformulario.css">
 
 <br><BR></BR>
-<div class="container" style="text-align:center;" >
+<div class="container" style="text-align:center;">
 
     <?php
     $m1 = array();

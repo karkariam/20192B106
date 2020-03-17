@@ -8,14 +8,9 @@
     <div class="row">
         <div>
             <h3>Multiplicacion de matrices.</h3>
-<<<<<<< Updated upstream
-            <br>
-=======
-
             <p>
                 Por favor ingrese los datos en la matriz 1:
             </p>
->>>>>>> Stashed changes
         </div>
 
     </div>
@@ -23,7 +18,7 @@
     <form action="matriz_sol.php" method="post" enctype="multipart/form-data">
         <hr>
         <p>
-                Por favor ingrese los datos en la matriz 1:
+            Por favor ingrese los datos en la matriz 1:
         </p>
 
         <fieldset id="matrix1">
