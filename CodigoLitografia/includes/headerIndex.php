@@ -41,6 +41,7 @@
                     <a class="nav-link text-white" href="CodigoLitografia/templates/contactenos.php">Contacto</a>
                     <a class="nav-link text-white" href="CodigoLitografia/templates/preguntas.php">Preguntas Frecuentes</a>
                     <a class="nav-link text-white" href="CodigoLitografia/templates/formulario.php"><b>Formulario</b></a>
+                    <a class="nav-link text-white" href="CodigoLitografia/templates/sesion.php"><b>Login</b></a>
                 </div>
             </div>
         </nav>

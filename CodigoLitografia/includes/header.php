@@ -40,6 +40,7 @@
                     <a class="nav-link text-white" href="contactenos.php">Contacto</a>
                     <a class="nav-link text-white" href="preguntas.php">Preguntas Frecuentes</a>
                     <a class="nav-link text-white" href="formulario.php"><b>Formulario</b></a>
+                    <a class="nav-link text-white" href="sesion.php"><b>Login</b></a>
                 </div>
             </div>
         </nav>

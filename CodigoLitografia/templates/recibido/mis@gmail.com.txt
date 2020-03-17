@@ -1,0 +1,6 @@
+
+		Nombre:=luz
+		Usuario:=dcdv
+		Contraseña:=1234
+		Email:=mis@gmail.com
+		
