@@ -1,8 +1,6 @@
 <?php include "CodigoLitografia/includes/headerIndex.php"; ?>
-
-
-
 <br><br>
+
 <article>
     <div class="ImagenIndex">
         <h1 class="TituloIndex"><br>
@@ -16,7 +14,7 @@
 </article>
 
 <hr>
-
+<!--Muestra la cookie1 con el nombre y contador de vistas-->
 <h4>
     <div class="container">
         <div class="alert alert-success alert-dismissible">
@@ -25,7 +23,9 @@
         </div>
     </div>
 </h4>
-<!--Muestra la cookie1 con el nombre y contador de vistas-->
+
+
+<!-- cookie con el contador de vistas y el nombre -->
 <script type="text/javascript">
     var impresion = "Hola <b>" + Who() + "</b>. Has visitado la página " + Count() + " veces.  La última visita fue: " + When() + ".";
     document.getElementById("cookie1").innerHTML = impresion;

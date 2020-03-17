@@ -61,7 +61,7 @@
         });
     }
 </script>
-
+<!-- Controles del acordeon -->
 <script>
     $(".accordion-titulo").click(function() {
 

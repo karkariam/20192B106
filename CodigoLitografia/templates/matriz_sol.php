@@ -9,17 +9,14 @@
     $m1 = array();
     $m2 = array();
     foreach ($_POST as $key => $valor) {
-
-
+        /* copiado de las matrices del formulario */
         if (substr($key, 0, 1) == "1") {
-            //echo substr($key, 2, 1), substr($key, 4, 1), $valor;
             $m1[(int) substr($key, 2, 3)][(int) substr($key, 4, 5)] = $valor;
-            //echo $m1[substr($key, 2, 3)][substr($key, 4, 5)];
         } elseif (substr($key, 0, 1) == "2") {
             $m2[(int) substr($key, 2, 3)][(int) substr($key, 4, 5)] = $valor;
         }
     }
-
+    /* operacion de las dos matrices para hacer una nueva */
     $m3 = array();
     for ($i = 0; $i < 3; $i++) {
         for ($j = 0; $j < 3; $j++) {
@@ -33,7 +30,7 @@
 
     echo "<table style='text-align:center; HEIGHT:100% ;WIDTH:100%;'>";
     echo " <tr>  <h2>Resultado: </h2>  </tr>  ";
-    //echo "<tbody>";
+    //imprimir la matriz numero 3
     for ($i = 0; $i < 3; $i++) {
         echo "<tr >";
         for ($j = 0; $j < 3; $j++) {
@@ -42,7 +39,6 @@
         }
         echo "</tr>";
     }
-    //echo "</tbody>";
     echo "<br></table>";
     ?>
 </div>

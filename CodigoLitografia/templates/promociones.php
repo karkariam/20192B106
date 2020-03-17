@@ -1,5 +1,6 @@
 <?php include('../includes/header.php');   ?>
 <br><br><br>
+<!-- videos traidos desde youtube -->
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12 col-lg-6 embed-responsive embed-responsive-16by9">

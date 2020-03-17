@@ -8,19 +8,18 @@
     <div class="row">
         <div>
             <h3>Multiplicacion de matrices.</h3>
+            <br>
             <p>
                 Por favor ingrese los datos en la matriz 1:
             </p>
         </div>
-
     </div>
-
+    <!-- formulario para operar la matriz -->
     <form action="matriz_sol.php" method="post" enctype="multipart/form-data">
         <hr>
         <p>
             Por favor ingrese los datos en la matriz 1:
         </p>
-
         <fieldset id="matrix1">
             <table align="center">
                 <tr>
@@ -82,10 +81,7 @@
         <br>
         <hr>
         <br>
-
-
         <input type="submit" class="boton boton2" value="Operar" />
-
         <br>
         <br>
     </form>
