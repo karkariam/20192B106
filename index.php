@@ -24,13 +24,10 @@
     </div>
 </h4>
 
-
 <!-- cookie con el contador de vistas y el nombre -->
 <script type="text/javascript">
     var impresion = "Hola <b>" + Who() + "</b>. Has visitado la página " + Count() + " veces.  La última visita fue: " + When() + ".";
     document.getElementById("cookie1").innerHTML = impresion;
 </script>
-
-
 
 <?php include "CodigoLitografia/includes/footerIndex.php"; ?>

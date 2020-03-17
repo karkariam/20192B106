@@ -5,7 +5,6 @@
 <br><br>
 
 <!-- Contenedores de acordeon -->
-
 <div id="container-main">
     <h1>PAPELERIA COMERCIAL</h1>
 
@@ -27,7 +26,6 @@
         </p>
     </div>
 
-
     <button class="accordion">Sellos</button>
     <div class="panel">
         <img src="https://drive.google.com/uc?export=view&id=1hvIsm_hwDYJtn-NTJruMTV9lqaTYPR0e " alt="3.png" style="width:30%;">
@@ -36,7 +34,6 @@
             En madera, automáticos, secos.
         </p>
     </div>
-
 
     <button class="accordion">Promocionales</button>
     <div class="panel">

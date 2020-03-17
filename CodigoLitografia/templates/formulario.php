@@ -20,10 +20,8 @@
 		<label for="telefono" class="form-label">Telefono:</label>
 		<input type="text" id="telefono" class="form-input" placeholder="Escriba su telefono" required>
 
-
 		<label for="codigo" class="form-label">Codigo:</label>
 		<input type="codigo" id="codigo" class="form-input" placeholder="Escriba su codigo" required>
-
 
 		<label for="correo" class="form-label">Correo Electronico:</label>
 		<input type="email" id="correo" class="form-input" placeholder=" Escriba su correo" required>
@@ -34,8 +32,6 @@
 		<label class="form-label">Confirmar contraseña:</label>
 		<input type="password" id="confirmar" class="form-input" value="" placeholder="Confirme su contraseña" required>
 
-
-
 		<input type="submit" class="btn-submit" value="Enviar">
 	</form>
 </div>
@@ -43,6 +39,3 @@
 <br><br>
 
 <?php include("../includes/footer.php");        ?>
-</body>
-
-</html>
