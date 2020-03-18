@@ -12,13 +12,13 @@
     <button class="accordion">David Ortiz.</button>
     <div class="panel">
         <img src="../../DatosLitografia/Do.png " alt="3.png" style="width:50%;">
-        <p>Programados senior, director de proyectos.
+        <p>Programador senior, director de proyectos, filantropo, multimullonario, inmune al covid-19.
         </p>
     </div>
     <button class="accordion">Edinson Rodriguez. </button>
     <div class="panel">
         <img src="../../DatosLitografia/Ed.png " alt="3.png" style="width:50%;">
-        <p>Programdor jr, master en html5.
+        <p>Programdor jr, master en html5, estilos de ccs.
         </p>
     </div>
     <button class="accordion">Jorge Garcia. </button>

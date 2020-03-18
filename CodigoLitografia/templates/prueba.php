@@ -21,7 +21,6 @@ if ($conexion->query($sql) === true) {
 } else {
     die("Error al crear base de datos: " . $conexion->error);
 }
-
 ?>
 
 
