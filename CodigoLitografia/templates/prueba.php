@@ -5,6 +5,7 @@
 $servidor = "localhost";
 $nombreusuario = "20192B106";
 $password = "H2trKsshRb";
+$db = "20192b106";
 
 $conexion = new mysqli($servidor, $nombreusuario, $password);
 
@@ -21,11 +22,15 @@ if ($conexion->query($sql) === true) {
 } else {
     die("Error al crear base de datos: " . $conexion->error);
 }
+?>
 
-//seleccionar la base de datos
-$sql = "USE 20192B106";
+<?php //despues de crear la base de datos se ejecuta este otro php prara crear las tablas usando una coneccion ya establecida con la base de datos
+$servidor = "localhost";
+$nombreusuario = "20192B106";
+$password = "H2trKsshRb";
+$db = "20192b106";
 
-
+$conexion = new mysqli($servidor, $nombreusuario, $password, $db);
 //crear tablas
 //crear tabla clientes 
 $sql = "CREATE TABLE IF NOT EXISTS clientes(
@@ -37,12 +42,13 @@ $sql = "CREATE TABLE IF NOT EXISTS clientes(
     telefono   int not null,
     email      character varying(50) not null,
     direccion  character varying(50) not null,
-    CONSTRAINT pk_idcliente PRIMARY KEY (idcliente)
+    CONSTRAINT pk_idcliente PRIMARY KEY (idcliente),
+    timestamp TIMESTAMP
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
-    echo "La tabla se creó correctamente...";
+    echo "La tabla se creó correctamente... <br>";
 } else {
-    die("Error al crear tabla: " . $conexion->error);
+    die("<br>Error al crear tabla: " . $conexion->error);
 }
 
 //crear tabla proveedores 
@@ -57,9 +63,9 @@ $sql = "CREATE TABLE IF NOT EXISTS proveedores(
     CONSTRAINT pk_idprove PRIMARY KEY (idprove)
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
-    echo "La tabla se creó correctamente...";
+    echo "La tabla se creó correctamente...<br>";
 } else {
-    die("Error al crear tabla: " . $conexion->error);
+    die("<br>Error al crear tabla: " . $conexion->error);
 }
 
 //crear tabla empleados
@@ -78,9 +84,9 @@ $sql = "CREATE TABLE IF NOT EXISTS empleados(
     CONSTRAINT pk_idemple PRIMARY KEY (idemple)
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
-    echo "La tabla se creó correctamente...";
+    echo "La tabla se creó correctamente...<br>";
 } else {
-    die("Error al crear tabla: " . $conexion->error);
+    die("<br>Error al crear tabla: " . $conexion->error);
 }
 
 //crear tabla lista de materiales 
@@ -92,9 +98,9 @@ $sql = "CREATE TABLE IF NOT EXISTS listado_materiales(
     CONSTRAINT pk_idlistado PRIMARY KEY (idlistado)
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
-    echo "La tabla se creó correctamente...";
+    echo "La tabla se creó correctamente...<br>";
 } else {
-    die("Error al crear tabla: " . $conexion->error);
+    die("<br>Error al crear tabla: " . $conexion->error);
 }
 
 //crear tabla cotizaciones
@@ -108,9 +114,9 @@ $sql = "CREATE TABLE IF NOT EXISTS cotizaciones(
                     REFERENCES listado_materiales(idlistado)
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
-    echo "La tabla se creó correctamente...";
+    echo "La tabla se creó correctamente...<br>";
 } else {
-    die("Error al crear tabla: " . $conexion->error);
+    die("<br>Error al crear tabla: " . $conexion->error);
 }
 
 //crear tabla orden trabajo
@@ -124,9 +130,9 @@ $sql = "CREATE TABLE IF NOT EXISTS orden_trabajo(
                     REFERENCES cotizaciones(idcoti)
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
-    echo "La tabla se creó correctamente...";
+    echo "La tabla se creó correctamente...<br>";
 } else {
-    die("Error al crear tabla: " . $conexion->error);
+    die("<br>Error al crear tabla: " . $conexion->error);
 }
 
 //crear tabla produactos
@@ -139,9 +145,9 @@ $sql = "CREATE TABLE IF NOT EXISTS productos(
     CONSTRAINT pk_idordt PRIMARY KEY (idprod)
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
-    echo "La tabla se creó correctamente...";
+    echo "La tabla se creó correctamente...<br>";
 } else {
-    die("Error al crear tabla: " . $conexion->error);
+    die("<br>Error al crear tabla: " . $conexion->error);
 }
 
 ?>
