@@ -12,7 +12,7 @@
     <button class="accordion">David Ortiz.</button>
     <div class="panel">
         <img src="../../DatosLitografia/Do.png " alt="3.png" style="width:50%;">
-        <p>Programados senior, direcftor de proyectos.
+        <p>Programados senior, director de proyectos.
         </p>
     </div>
     <button class="accordion">Edinson Rodriguez. </button>

@@ -10,7 +10,7 @@
 
     <button class="accordion">Impresos</button>
     <div class="panel">
-        <img src="https://drive.google.com/uc?export=view&id=1tfqRBw0c_x_yosklZSuduqd6NWxDhN46 " alt="3.png" style="width:50%;">
+        <img src="../../DatosLitografia/print6.png " alt="3.png" style="width:50%;">
         <p>Manejamos impresos hechos a tu medida como son:
 
             Afiches, Etiquetas, Adhesivo, Facturas, Plegables, Revistas, Tarjetas, Volantes
@@ -19,7 +19,7 @@
 
     <button class="accordion">Impresión Gran Formato</button>
     <div class="panel">
-        <img src="https://drive.google.com/uc?export=view&id=1J2_4dX1kINZ75Q4GpOxFI35NyMSp7a18 " alt="3.png" style="width:50%;">
+        <img src="../../DatosLitografia/print1.jpg " alt="3.png" style="width:50%;">
         <p>Angarita Ardila impresores tiene dentro de su portafolio la posibilidad de hacer trabajos de gran formato como:
 
             Vinilos adhesivos, Pendones, Pasacalles, Estructura.
@@ -28,7 +28,7 @@
 
     <button class="accordion">Sellos</button>
     <div class="panel">
-        <img src="https://drive.google.com/uc?export=view&id=1hvIsm_hwDYJtn-NTJruMTV9lqaTYPR0e " alt="3.png" style="width:30%;">
+        <img src="../../DatosLitografia/print7.jpg " alt="3.png" style="width:30%;">
         <p>Fabricamos sellos tal como los necesites:
 
             En madera, automáticos, secos.
@@ -37,7 +37,7 @@
 
     <button class="accordion">Promocionales</button>
     <div class="panel">
-        <img src="https://drive.google.com/uc?export=view&id=1y7FN-lb4OTwVouPuWigHoEuTFxkVuH7W " alt="3.png" style="width:50%;">
+        <img src="../../DatosLitografia/print8.jpg " alt="3.png" style="width:50%;">
         <p>Lleva tu marca a todos lados con:
             Agendas, Lapiceros, Manillas, Mugs, Cojines.
         </p>

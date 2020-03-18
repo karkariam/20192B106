@@ -14,7 +14,7 @@
             </p>
         </div>
     </div>
-    <!-- formulario para operar la matriz -->
+    <!-- formulario para llenar la matriz a operar -->
     <form action="matriz_sol.php" method="post" enctype="multipart/form-data">
         <hr>
         <p>

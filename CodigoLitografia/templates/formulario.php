@@ -35,37 +35,4 @@
 	</form>
 </div>
 
-<!-- Controles del acordeon -->
-<script>
-	var acc = document.getElementsByClassName("accordion");
-	var i;
-
-	for (i = 0; i < acc.length; i++) {
-		acc[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var panel = this.nextElementSibling;
-			if (panel.style.maxHeight) {
-				panel.style.maxHeight = null;
-			} else {
-				panel.style.maxHeight = panel.scrollHeight + "px";
-			}
-		});
-	}
-</script>
-<!-- Controles del acordeon -->
-<script>
-	$(".accordion-titulo").click(function() {
-
-		var contenido = $(this).next(".panel");
-
-		if (contenido.css("display") == "none") { //open     
-			contenido.slideDown(250);
-			$(this).addClass("open");
-		} else { //close        
-			contenido.slideUp(250);
-			$(this).removeClass("open");
-		}
-	});
-</script>
-
 <?php include("../includes/footer.php");        ?>

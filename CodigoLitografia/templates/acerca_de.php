@@ -15,7 +15,7 @@
             </p>
         </div>
         <div class="col-lg-6 col-sm-12">
-            <img class="img-thumbnail" src="https://drive.google.com/uc?export=view&id=1hr4f7bU8Wp3GJxyS-aIEzesiIfp8vJXe">
+            <img class="img-thumbnail" src="../../DatosLitografia/Lithography.jpg ">
         </div>
     </div>
     <hr>
@@ -30,7 +30,7 @@
             </p>
         </div>
         <div class="col-lg-6 col-sm-12">
-            <img class="img-thumbnail" src="https://drive.google.com/uc?export=view&id=1lhIPy8R7yMhbbFaRE0Xnv74eEcailM89">
+            <img class="img-thumbnail" src="../../DatosLitografia/print2.jpg ">
         </div>
     </div>
     <hr>
@@ -44,7 +44,7 @@
             </p>
         </div>
         <div class="col-lg-6 col-sm-12">
-            <img class="img-thumbnail" src="https://drive.google.com/uc?export=view&id=19ZWeYXiaP8V2rPrbn_9lDVpFDMi-327n">
+            <img class="img-thumbnail" src="../../DatosLitografia/print3.jpg ">
         </div>
     </div>
     <hr>
@@ -57,7 +57,7 @@
                 de sus procesos y medio ambiente. </p>
         </div>
         <div class="col-lg-6 col-sm-12">
-            <img class="img-thumbnail" src="https://drive.google.com/uc?export=view&id=19iwcrSe4eXoX-SDj-la9IidXiRWoImuK">
+            <img class="img-thumbnail" src="../../DatosLitografia/print4.jpg ">
         </div>
     </div>
     <hr>
@@ -69,7 +69,7 @@
                 Clik <a href="/20192B106/CodigoLitografia/templates/encuesta.php">aqui</a> para responder la escuesta. </p>
         </div> <!-- link para ir a la encuesta -->
         <div class="col-lg-6 col-sm-12">
-            <img class="img-thumbnail" src="https://drive.google.com/uc?export=view&id=1AfJPMLvERav7Ft8SXXg0IqG-XGmNXbKw">
+            <img class="img-thumbnail" src="../../DatosLitografia/print5.jpg ">
         </div>
     </div>
 </div>

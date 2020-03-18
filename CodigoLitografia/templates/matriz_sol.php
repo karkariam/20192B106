@@ -27,7 +27,6 @@
         }
     }
 
-
     echo "<table style='text-align:center; HEIGHT:100% ;WIDTH:100%;'>";
     echo " <tr>  <h2>Resultado: </h2>  </tr>  ";
     //imprimir la matriz numero 3

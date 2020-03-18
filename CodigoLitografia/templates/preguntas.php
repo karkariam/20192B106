@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 col-lg-6">
-            <img class="img-thumbnail" src="https://drive.google.com/uc?export=view&id=1E8hmWC0yNV0y18CHrYOb87KbXDZdFi9S" alt=" Cotizacion">
+            <img class="img-thumbnail" src="../../DatosLitografia/a1.png" width=300 height="233" alt=" Cotizacion">
         </div>
         <div class="col-sm-12 col-lg-6">
             <h4>¿Cuánto se demora en estar lista mi cotización?</h4><br><br>
@@ -16,7 +16,7 @@
 
     <div class="row">
         <div class="col-sm-12 col-lg-6">
-            <img src="https://drive.google.com/uc?export=view&id=1uL3jotkotHaJ5LsPWHknu39OzIBd8_rd" alt="Pedidos" class="img-thumbnail">
+            <img src="../../DatosLitografia/a2.png" width=300 height="233" alt="Pedidos" class="img-thumbnail">
         </div>
         <div class="col-sm-12 col-lg-6">
             <h4>¿Cuáles son los medios de pago para cancelar mi pedido?</h4><br><br>
@@ -29,7 +29,7 @@
 
     <div class="row">
         <div class="col-sm-12 col-lg-6">
-            <img src="https://drive.google.com/uc?export=view&id=1QHi_dXOGQW-1wX7QBwSDMYxZV30PSLxR" alt="Entrega" class="img-thumbnail">
+            <img src="../../DatosLitografia/a3.png" width=300 height="233" alt="Entrega" class="img-thumbnail">
         </div>
         <div class="col-sm-12 col-lg-6">
             <h4>¿Tienen envíos a otras ciudades del país?</h4><br><br>
@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="col-sm-12 col-lg-6">
-            <img src="https://drive.google.com/uc?export=view&id=189jLBmaMmwz6Fo4wk60G_OtMiRbpEfQy" alt="Formato" class="img-thumbnail">
+            <img src="../../DatosLitografia/a4.jpg" width=300 height="233" alt="Formato" class="img-thumbnail">
         </div>
         <div class="col-sm-12 col-lg-6">
             <h4>¿En qué formatos específicos debo enviar los archivos para mi pedido?</h4><br><br>

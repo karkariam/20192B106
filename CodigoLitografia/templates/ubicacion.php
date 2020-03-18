@@ -23,7 +23,7 @@
     <div class="row">
         <div class="col-lg-6 col-sm-12">
             <div>
-                <img alt="Equipo de trabajo" src="https://drive.google.com/uc?export=view&id=12B6Xp8Eq2JitSdGEMhJepj1bAr466jCu" width=400 height="200" class="img-thumbnail">
+                <img alt="Equipo de trabajo" src="../../DatosLitografia/grupo_de_trabajo.jpg" width="400" height="200" class="img-thumbnail">
             </div>
         </div>
         <div class="col-lg-6 col-sm-12">

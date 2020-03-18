@@ -4,19 +4,19 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://drive.google.com/uc?export=view&id=1Fq1KIbF-GI7WlRHAJuIDukRLjKHmbYCq" class="d-block w-100" alt="...">
+      <img src="../../DatosLitografia/a5.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://drive.google.com/uc?export=view&id=10jmZc4sh4algmJM7lCvRPChYAGqJ5mgz" class="d-block w-100" alt="...">
+      <img src="../../DatosLitografia/a6.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://drive.google.com/uc?export=view&id=1KQ1s3v66LS1WruzdQLUfsetP7FAp3gz0" class="d-block w-100" alt="...">
+      <img src="../../DatosLitografia/a7.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://drive.google.com/uc?export=view&id=1RWFHpqNavrXC3WiGmmhhWWcs3A0_GZou" class="d-block w-100" alt="...">
+      <img src="../../DatosLitografia/a8.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://drive.google.com/uc?export=view&id=1ZuTnfJUKF1sVy8-xb_kOBhS_4I9wz3PV" class="d-block w-100" alt="...">
+      <img src="../../DatosLitografia/a9.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <!-- Controles -->
