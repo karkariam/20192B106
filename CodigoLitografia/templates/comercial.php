@@ -75,7 +75,6 @@
             contenido.slideUp(250);
             $(this).removeClass("open");
         }
-
     });
 </script>
 <?php include("../includes/footer.php");        ?>
