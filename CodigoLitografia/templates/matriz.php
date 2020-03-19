@@ -1,91 +1,87 @@
 <?php include('../includes/header.php');   ?>
-<link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/acordeon.css">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/estiloformulario.css">
 
 
 <br><BR></BR>
+<div class="container" style="text-align:center;">
+    <h3>Multiplicacion de matrices.</h3>
+    <br>
 
-<div class="container">
-    <div class="row">
-        <div>
-            <h3>Multiplicacion de matrices.</h3>
-            <br>
-            <p>
-                Por favor ingrese los datos en la matriz 1:
-            </p>
-        </div>
-    </div>
-    <!-- formulario para llenar la matriz a operar -->
-    <form action="matriz_sol.php" method="post" enctype="multipart/form-data">
-        <hr>
-        <p>
-            Por favor ingrese los datos en la matriz 1:
-        </p>
-        <fieldset id="matrix1">
-            <table align="center">
-                <tr>
+    <?php
+    // Creamos la tabla 1
+    //$matriz1[3][3];
+    for ($i = 0; $i < 3; $i++) {
+        for ($j = 0; $j < 3; $j++) {
+            $matriz1[$i][$j] = 0;
+            for ($k = 0; $k < 3; $k++) {
+                $matriz1[$i][$j] = rand(1, 100); // Creamos lel valor aleatoreo
+            }
+        }
+    }
+    echo "<table style='text-align:center;'>";
+    echo " <tr>  <h2>Matriz 1. </h2>  </tr>  ";
+    //imprimir la matriz numero 1
+    for ($i = 0; $i < 3; $i++) {
+        echo "<tr >";
+        for ($j = 0; $j < 3; $j++) {
+            $a = $matriz1[$i][$j];
+            echo "<td>$a</td>";
+        }
+        echo "</tr>";
+    }
+    echo "<br></table>";
 
-                    <td><input type="text" name="1-0-0" required /></td>
-                    <td><input type="text" name="1-0-1" required /></td>
-                    <td><input type="text" name="1-0-2" required /></td>
+    // Creamos la tabla 2
+    //$matriz2[3][3];
+    for ($i = 0; $i < 3; $i++) {
+        for ($j = 0; $j < 3; $j++) {
+            $matriz2[$i][$j] = 0;
+            for ($k = 0; $k < 3; $k++) {
+                $matriz2[$i][$j] = rand(1, 100); // Creamos lel valor aleatoreo
+            }
+        }
+    }
 
-                </tr>
-                <tr>
+    echo "<table style='text-align:center;'>";
+    echo " <tr>  <h2>Matriz 1. </h2>  </tr>  ";
+    //imprimir la matriz numero 2
+    for ($i = 0; $i < 3; $i++) {
+        echo "<tr >";
+        for ($j = 0; $j < 3; $j++) {
+            $a = $matriz1[$i][$j];
+            echo "<td>$a</td>";
+        }
+        echo "</tr>";
+    }
+    echo "<br></table>";
 
-                    <td><input type="text" name="1-1-0" required /></td>
-                    <td><input type="text" name="1-1-1" required /></td>
-                    <td><input type="text" name="1-1-2" required /></td>
+    //operacion de la matriz 3
+    //$matriz3[3][3];
+    for ($i = 0; $i < 3; $i++) {
+        for ($j = 0; $j < 3; $j++) {
+            $matriz3[$i][$j] = 0;
+            for ($k = 0; $k < 3; $k++) {
+                $matriz3[$i][$j] += $matriz2[$i][$k] * $matriz1[$k][$j];
+            }
+        }
+    }
 
-                </tr>
-                <tr>
-
-                    <td><input type="text" name="1-2-0" required /></td>
-                    <td><input type="text" name="1-2-1" required /></td>
-                    <td><input type="text" name="1-2-2" required /></td>
-
-                </tr>
-
-            </table>
-        </fieldset>
-        <br>
-        <hr>
-        <p>
-            Por favor ingrese los datos en la matriz 2:
-        </p>
-
-        <fieldset id="matrix2">
-            <table align="center" required>
-                <tr>
-
-                    <td><input type="text" name="2-0-0" required /></td>
-                    <td><input type="text" name="2-0-1" required /></td>
-                    <td><input type="text" name="2-0-2" required /></td>
-
-                </tr>
-                <tr>
-
-                    <td><input type="text" name="2-1-0" required /></td>
-                    <td><input type="text" name="2-1-1" required /></td>
-                    <td><input type="text" name="2-1-2" required /></td>
-
-                </tr>
-                <tr>
-
-                    <td><input type="text" name="2-2-0" required /></td>
-                    <td><input type="text" name="2-2-1" required /></td>
-                    <td><input type="text" name="2-2-2" required /></td>
-
-                </tr>
-
-            </table>
-        </fieldset>
-        <br>
-        <hr>
-        <br>
-        <input type="submit" class="boton boton2" value="Operar" />
-        <br>
-        <br>
-    </form>
+    echo "<table style='text-align:center;'>";
+    echo " <tr>  <h2>Resultado: </h2>  </tr>  ";
+    //imprimir la matriz numero 3
+    for ($i = 0; $i < 3; $i++) {
+        echo "<tr >";
+        for ($j = 0; $j < 3; $j++) {
+            $a = $matriz3[$i][$j];
+            echo "<td>$a</td>";
+        }
+        echo "</tr>";
+    }
+    echo "<br></table>";
+    ?>
 
 </div>
-<br><br><br><br><br><br><br><br><br><br>
+<br><br>
+
 <?php include("../includes/footer.php");        ?>
