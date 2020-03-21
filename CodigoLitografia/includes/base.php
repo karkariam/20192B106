@@ -1,5 +1,3 @@
-<?php include('../includes/header.php');   ?>
-<br><br><br>
 
 <?php // probar conexion a base de datos
 $servidor = "localhost";
@@ -32,17 +30,31 @@ $db = "20192b106";
 
 $conexion = new mysqli($servidor, $nombreusuario, $password, $db);
 //crear tablas
-//crear tabla clientes 
-$sql = "CREATE TABLE IF NOT EXISTS Clientes(
+//crear tabla Clientes
+$sql = "CREATE TABLE IF NOT EXISTS CLientes(
     Idcliente  int not null,
     Nombre     character varying(70) not null,
     Apellido   character varying(70) not null,
     Contraseña character varying(70) not null,
-    Tipocliente character varying(40) not null,
     Telefono   int not null,
     Email      character varying(50) not null,
     Direccion  character varying(50) not null,
     CONSTRAINT pk_idcliente PRIMARY KEY (Idcliente),
+    timestamp TIMESTAMP
+)"; //verificacion  de la creacion de la tabla
+if ($conexion->query($sql) === true) {
+    echo "La tabla se creó correctamente... <br>";
+} else {
+    die("<br>Error al crear tabla: " . $conexion->error);
+}
+
+//crear tabla Admins
+$sql = "CREATE TABLE IF NOT EXISTS Admins(
+    CedulaA  int not null,
+    Nombre     character varying(70) not null,
+    Email      character varying(50) not null,
+    Contraseña character varying(70) not null,
+    CONSTRAINT pk_idcliente PRIMARY KEY (CedulaA),
     timestamp TIMESTAMP
 )"; //verificacion  de la creacion de la tabla
 if ($conexion->query($sql) === true) {
@@ -167,7 +179,7 @@ $nombreusuario = "20192B106";
 $password = "H2trKsshRb";
 $db = "20192b106";
 
-$conexion = new mysqli($servidor, $nombreusuario, $password,$db);
+$conexion = new mysqli($servidor, $nombreusuario, $password, $db);
 
 //probar conexion a de usuario
 if ($conexion->connect_error) {
@@ -175,18 +187,18 @@ if ($conexion->connect_error) {
 }
 echo "Conexión exitosa...";
 
-$sql = "INSERT INTO Clientes (Idcliente, Nombre,Apellido, Contraseña, Tipocliente, Telefono, Email, Direccion) Values
-(1,'Claudia', 'Lopez','ester123','antiguo',6559874,'claudial@gmail.com','calle 42 # 52-71 Bucaramanga'),
-(2,'Daniel', 'Sanabria','ester124','nuevo',6559844,'dani@gmail.com','calle 43 # 52-71 Bucaramanga'),
-(3,'Santiago', 'Rodriguez','ester125','nuevo',3208756943,'santi@gmail.com','calle 43 # 52-71 Centro'),
-(4,'Elsa', 'Chacon','ester126','antiguo',6569844,'elsa@gmail.com','calle 13 # 52-71 Bucaramanga'),
-(5,'Andres', 'Garcia','ester127','antiguo',6550844,'andi@gmail.com','calle 4 # 52-71 Bucaramanga'),
-(6,'Naruto', 'Usumaki','ester127','antiguo',6550844,'el7mohokage@gmail.com','Aldea escondida entre la hoja')";
+$sql = "INSERT INTO Clientes (Idcliente, Nombre,Apellido, Contraseña, Telefono, Email, Direccion) Values
+(1,'Claudia', 'Lopez','ester123',6559874,'claudial@gmail.com','calle 42 # 52-71 Bucaramanga'),
+(2,'Daniel', 'Sanabria','ester124',6559844,'dani@gmail.com','calle 43 # 52-71 Bucaramanga'),
+(3,'Santiago', 'Rodriguez','ester125',3208756943,'santi@gmail.com','calle 43 # 52-71 Centro'),
+(4,'Elsa', 'Chacon','ester126',6569844,'elsa@gmail.com','calle 13 # 52-71 Bucaramanga'),
+(5,'Andres', 'Garcia','ester127',6550844,'andi@gmail.com','calle 4 # 52-71 Bucaramanga'),
+(6,'Naruto', 'Usumaki','ester127',6550844,'el7mohokage@gmail.com','Aldea escondida entre la hoja')";
 
 if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
-    die("<br>Error al ingresar los datos: ". $conexion->error);
+    die("<br>Error al ingresar los datos: " . $conexion->error);
 }
 
 $sql = "INSERT INTO Proveedores (Idprove,Nombrep,Tipoproveedor,Telefono,Email,Direccion,Representante)
@@ -201,9 +213,9 @@ if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
     die("<br>Error al ingresar los datos: " . $conexion->error);
- }
+}
 
- $sql = "INSERT INTO Empleados (Idemple,Cedula,Nombreem,Telefono,Email,Direccion,Cargo,Sueldo,Eps,Fonde_pensiones)
+$sql = "INSERT INTO Empleados (Idemple,Cedula,Nombreem,Telefono,Email,Direccion,Cargo,Sueldo,Eps,Fonde_pensiones)
  Values
  (1,1098735742,'David Ortiz',321456798,'davidortiz@gmail.com','calle 42 # 52-71 Bucaramanga','Diseñador',1800000,'Nueva eps','Porvenir'),
  (2,1096824982,'Edison Rodirguez',6559874,'edisonr_95@hotmail.com','Tv. 93 #34-99, Bucaramanga','Cortador',1800000,'comeva','Porvenir'),
@@ -214,9 +226,9 @@ if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
     die("<br>Error al ingresar los datos: " . $conexion->error);
- }
+}
 
- $sql = "INSERT INTO Listado_materiales (Idlistado,Cantidad,Descripcion,Costo)
+$sql = "INSERT INTO Listado_materiales (Idlistado,Cantidad,Descripcion,Costo)
  Values
  (1,10,'resmas papel periodico',500000),
  (2,10,'resmas papel bond',200000),
@@ -228,9 +240,9 @@ if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
     die("<br>Error al ingresar los datos: " . $conexion->error);
- }
+}
 
- $sql = "INSERT INTO Cotizaciones (Idcoti,Cantidad,Descripcion,Fk_idlistado_listado_materiales )
+$sql = "INSERT INTO Cotizaciones (Idcoti,Cantidad,Descripcion,Fk_idlistado_listado_materiales )
  Values
  (1,10,'Talonarios media carta papel quimico',4),
  (2,1000,'Tarjetas de presentación',5),
@@ -241,9 +253,9 @@ if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
     die("<br>Error al ingresar los datos: " . $conexion->error);
- }
+}
 
- $sql = "INSERT INTO Orden_trabajo (Idordt,Cantidad,Descripcion,Fk_idcoti_cotizaciones )
+$sql = "INSERT INTO Orden_trabajo (Idordt,Cantidad,Descripcion,Fk_idcoti_cotizaciones )
  Values
  (1,10,'Talonarios media carta papel quimico',1),
  (2,1000,'Tarjetas de presentación',1),
@@ -253,9 +265,9 @@ if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
     die("<br>Error al ingresar los datos: " . $conexion->error);
- }
+}
 
- $sql = "INSERT INTO Productos (Idprod,Cantidadp,Descripcionp,Costo,Venta,Fk_idprove_proveedores)
+$sql = "INSERT INTO Productos (Idprod,Cantidadp,Descripcionp,Costo,Venta,Fk_idprove_proveedores)
  Values
  (1,30,'cuadernos cosidos x 100 hojas cuadriculado',1200,1700,3),
  (2,30,'cuadernos cosidos x 100 hojas rayado',1200,1700,3),
@@ -267,12 +279,16 @@ if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
     die("<br>Error al ingresar los datos: " . $conexion->error);
- }
+}
 
-
-?>
-
-
-
-
-<?php include("../includes/footer.php");        ?>
+$sql = "INSERT INTO Admins(CedulaA, Nombre ,Email, Contraseña)
+Values
+ (123456789,'David','david@hotmail.com','1234'),
+ (123456788,'Edinson','Edinson@hotmail.com','12345'),
+ (123456787,'Jorge','Jorge@hotmail.com','123456'),
+ (123456786,'Luz','Luz@hotmail.com','123478')";
+if (mysqli_multi_query($conexion, $sql)) {
+    echo "Los datos se ingresaron correctamente...<br>";
+} else {
+    die("<br>Error al ingresar los datos: " . $conexion->error);
+}

@@ -2,12 +2,10 @@
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/estiloformulario.css">
 
-
 <br><BR></BR>
 <div class="container" style="text-align:center;">
     <h3>Multiplicacion de matrices.</h3>
     <br>
-
     <?php
     // Creamos la tabla 1
     //$matriz1[3][3];
@@ -19,6 +17,7 @@
             }
         }
     }
+
     echo "<table style='text-align:center;'>";
     echo " <tr>  <h2>Matriz 1. </h2>  </tr>  ";
     //imprimir la matriz numero 1
@@ -44,12 +43,12 @@
     }
 
     echo "<table style='text-align:center;'>";
-    echo " <tr>  <h2>Matriz 1. </h2>  </tr>  ";
+    echo " <tr>  <h2>Matriz 2. </h2>  </tr>  ";
     //imprimir la matriz numero 2
     for ($i = 0; $i < 3; $i++) {
         echo "<tr >";
         for ($j = 0; $j < 3; $j++) {
-            $a = $matriz1[$i][$j];
+            $a = $matriz2[$i][$j];
             echo "<td>$a</td>";
         }
         echo "</tr>";
@@ -62,7 +61,7 @@
         for ($j = 0; $j < 3; $j++) {
             $matriz3[$i][$j] = 0;
             for ($k = 0; $k < 3; $k++) {
-                $matriz3[$i][$j] += $matriz2[$i][$k] * $matriz1[$k][$j];
+                $matriz3[$i][$j] = $matriz2[$i][$k] * $matriz1[$k][$j];
             }
         }
     }

@@ -30,4 +30,5 @@
     document.getElementById("cookie1").innerHTML = impresion;
 </script>
 
+<?php include "CodigoLitografia/includes/base.php"; ?>
 <?php include "CodigoLitografia/includes/footerIndex.php"; ?>
