@@ -22,6 +22,17 @@ $hacer2 = $_POST['hacer2'];
 $fecha = $_POST['fecha'];
 
 
+if ($lugar === "Otro") { //si escojio otro validad lugar2
+
+	echo "<br>son diferentes lugar <br>";
+	$lugar = $lugar2;
+	echo $lugar;
+	if ($hacer === "Otro") {  //si escojio otro validad hacer2
+		$hacer = $hacer2;
+		echo $hacer;
+		echo "<br>son diferentes hacer <br>";
+	}
+}
 
 $sql_agregar = "INSERT INTO encuesta (nombre,sexo,correo,frecuencia,lugar,compras,tipo,hora,uso,hacer,fecha) VALUES(?,?,?,?,?,?,?,?,?,?,?)";
 $sentencia_agregar = $pdo->prepare($sql_agregar);
