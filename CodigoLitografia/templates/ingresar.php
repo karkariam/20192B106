@@ -19,17 +19,21 @@
 
 		<input type="submit" class="btn-submit" value="Ingresar">
 	</form>
+
+	<form class="form" action="registro.php">
+		<div class="form-header">
+			<h1 class="form-title">S<span>i no esta registrado:</span></h1>
+			<input type="submit" class="btn-submit" value="Click aqui.">
+		</div>
+	</form>
+
+	<form action="loginA.php" class="form">
+		<div class="form-header">
+			<h1 class="form-title">E<span>ntrar como administrador:</span></h1>
+			<input type="submit" class="btn-submit" value="Click aqui.">
+	</form>
 </div>
 
-<div class="container">
-	<div class="row">
-		<h1 class="form-title">S<span>i no esta registrado:</span></h1>
-	</div><a href="registro.php">Click aqui.</a>
-	<hr> <br>
-	<div>
-		<h1 class="form-title">E<span>ntrar como administrador:</span></h1>
-	</div><a href="loginA.php">Click aqui.</a>
-</div>
 
 
 <br><br><br>
