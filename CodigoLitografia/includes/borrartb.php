@@ -12,3 +12,6 @@ $sentencia_eliminar->execute(array($Idproducto));
 //cerramos conexión base de datos y sentencia
 $pdo = null;
 $sentencia_eliminar = null;
+
+//redireccionar 
+header('location: /20192B106/CodigoLitografia/templates/borrartb.php');

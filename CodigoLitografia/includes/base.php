@@ -170,6 +170,28 @@ if ($conexion->query($sql) === true) {
 } else {
     die("<br>Error al crear tabla: " . $conexion->error);
 }
+
+$sql = "CREATE TABLE IF NOT EXISTS encuesta(
+    id int auto_increment not null,
+    nombre varchar(50),
+    sexo varchar(50),
+    correo varchar(50),
+    frecuencia varchar(50),
+    lugar varchar(50),
+    compras varchar(50),
+    tipo varchar(50),
+    hora varchar(50),
+    uso varchar(50), 
+    hacer varchar(50), 
+    fecha varchar(50),
+    CONSTRAINT pk_id PRIMARY KEY (id),
+    timestamp TIMESTAMP
+    )"; //verificacion  de la creacion de la tabla
+if ($conexion->query($sql) === true) {
+    echo "La tabla se creó correctamente...<br>";
+} else {
+    die("<br>Error al crear tabla: " . $conexion->error);
+}
 ?>
 
 
