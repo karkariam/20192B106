@@ -34,26 +34,28 @@ if (isset($_SESSION['usuario'])) {
       </form>
 
 
-      <h3 class="text-center">Descargara archivos de importancia.<h3>
-
-          <form method="post" action="validar1.php" enctype="multipart/form-data">
-            <h4 class="text-center">Nuestro catalogo:</h4>
-            <center><button type="submit" class="btn btn-primary">Descargar</button>
-              <center>
-
-          </form>
-
-          <form method="post" action="validar2.php" enctype="multipart/form-data">
-            <h4 class="text-center">Ofertas disponibles:</h4>
-            <center><button type="submit" class="btn btn-primary">Descargar</button>
-              <center>
-
-          </form>
 
     </div>
   </div>
 </div>
 
+<div>
+  <h3 class="text-center">Descargara archivos de importancia.<h3>
+
+      <form method="post" action="validar1.php" enctype="multipart/form-data">
+        <h4 class="text-center">Nuestro catalogo:</h4>
+        <center><button type="submit" class="btn btn-primary">Descargar</button>
+          <center>
+
+      </form>
+
+      <form method="post" action="validar2.php" enctype="multipart/form-data">
+        <h4 class="text-center">Ofertas disponibles:</h4>
+        <center><button type="submit" class="btn btn-primary">Descargar</button>
+          <center>
+
+      </form>
+</div>
 
 
 <!-- Optional JavaScript -->

@@ -2,7 +2,6 @@
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/estiloformulario.css">
 <link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/acordeon.css">
-
 <br><br><br>
 <?php
 //Como el elemento es un arreglos utilizamos foreach para extraer todos los valores
@@ -52,7 +51,7 @@ foreach ($_FILES["archivo"]['tmp_name'] as $key => $tmp_name) {
 
 			$imgFileType = pathinfo($image, PATHINFO_EXTENSION);
 
-			if (($imgFileType == 'jpg') || ($imgFileType == 'png')) {
+			if (($imgFileType == 'jpg') || ($imgFileType == 'jpeg') || ($imgFileType == 'png')) {
 				if ($n == 0) {
 					echo
 						"<div class='carousel-item active'>
@@ -86,7 +85,6 @@ foreach ($_FILES["archivo"]['tmp_name'] as $key => $tmp_name) {
 <br><br><br><br>
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
