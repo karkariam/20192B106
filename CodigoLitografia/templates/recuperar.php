@@ -5,7 +5,7 @@
 
 <br><br><br>
 <div class="contenedor">
-    <form id="formulario" action="../includes/login.php" class="form" method="POST">
+    <form id="formulario" action="../includes/email.php" class="form" method="POST">
         <div class="form-header">
             <h1 class="form-title">R<span>ecuperar cuenta</span></h1>
         </div>
@@ -14,6 +14,6 @@
 
         <input type="submit" class="btn-submit" value="Enviar">
     </form>
-    <br><br><br>
+    <br><br><br><br><br>
 </div>
 <?php include("../includes/footer.php");        ?>
