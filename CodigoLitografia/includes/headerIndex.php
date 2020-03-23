@@ -40,7 +40,7 @@ session_start();
                     <a class="nav-link text-white" href="CodigoLitografia/templates/ubicacion.php">Ubicacion</a>
                     <a class="nav-link text-white" href="CodigoLitografia/templates/contactenos.php">Contacto</a>
                     <a class="nav-link text-white" href="CodigoLitografia/templates/preguntas.php">Preguntas Frecuentes</a>
-                    <a class="nav-link text-white" href="CodigoLitografia/templates/ingresar.php"><b>ingresar</b></a>
+                    <a class="nav-link text-white" href="CodigoLitografia/templates/recheck.php"><b>ingresar</b></a>
                     <a class="nav-link text-white" href="CodigoLitografia/includes/logout.php"><b>Log-out</b></a>
                 </div>
             </div>

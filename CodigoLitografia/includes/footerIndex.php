@@ -9,7 +9,7 @@
                     <a href="CodigoLitografia/templates/contactenos.php" title="Contacta con nosotros">Contactenos</a> /
                     <a href="CodigoLitografia/templates/preguntas.php" title="Preguntas Frecuentes">Preguntas Frecuentes</a> /
                     <a href="CodigoLitografia/templates/matriz.php" title="Formulario">Multiplicar matrices</a>/
-                    <a href="CodigoLitografia/includes/base.php" title="Formulario">Generar base de datos</a>/
+                    <!-- <a href="CodigoLitografia/includes/base.php" title="Formulario">Generar base de datos</a>/ -->
                     <a href="CodigoLitografia/templates/subir.php" title="Formulario">Subir archivos</a>/
                     <a href="CodigoLitografia/templates/tablas.php" title="Formulario">Ir a crud</a>
                 </div>

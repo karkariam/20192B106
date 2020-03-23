@@ -39,7 +39,7 @@ session_start();
                     <a class="nav-link text-white" href="ubicacion.php">Ubicacion</a>
                     <a class="nav-link text-white" href="contactenos.php">Contacto</a>
                     <a class="nav-link text-white" href="preguntas.php">Preguntas Frecuentes</a>
-                    <a class="nav-link text-white" href="ingresar.php"><b>Ingresar</b></a>
+                    <a class="nav-link text-white" href="recheck.php"><b>Ingresar</b></a>
                     <a class="nav-link text-white" href="../includes/logout.php"><b>Log-out</b></a>
                 </div>
             </div>
