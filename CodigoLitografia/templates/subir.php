@@ -20,7 +20,7 @@ if (isset($_SESSION['usuario'])) {
 
       <form name="form1" id="form1" method="post" action="guardar.php" enctype="multipart/form-data">
 
-        <h4 class="text-center">Cargar multiples archivos</h4>
+        <h3 class="text-center">Cargar multiples archivos.</h3>
 
         <div class="form-group">
           <div class="col-sm-10">
@@ -33,9 +33,28 @@ if (isset($_SESSION['usuario'])) {
 
       </form>
 
+
+      <h3 class="text-center">Descargara archivos de importancia.<h3>
+
+          <form method="post" action="validar1.php" enctype="multipart/form-data">
+            <h4 class="text-center">Nuestro catalogo:</h4>
+            <center><button type="submit" class="btn btn-primary">Descargar</button>
+              <center>
+
+          </form>
+
+          <form method="post" action="validar2.php" enctype="multipart/form-data">
+            <h4 class="text-center">Ofertas disponibles:</h4>
+            <center><button type="submit" class="btn btn-primary">Descargar</button>
+              <center>
+
+          </form>
+
     </div>
   </div>
 </div>
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

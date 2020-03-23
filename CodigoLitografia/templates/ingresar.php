@@ -1,10 +1,7 @@
 <?php include('../includes/header.php');   ?>
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="/20192B106/CodigoLitografia/css/estiloformulario.css">
-
-
-<br><br><br>
-
+<br><br>
 <!-- formulario hoja de vida -->
 <div class="contenedor">
 	<form id="formulario" action="../includes/login.php" class="form" method="POST">
@@ -16,6 +13,8 @@
 
 		<label for="contraseña" class="form-label">Contraseña:</label>
 		<input type="password" name="contraseña" id="contraseña" class="form-input" value="" placeholder="Escriba su contraseña" required>
+
+		Si olviddo su contraseña clik<a href="recuperar.php"> aqui.</a>
 
 		<input type="submit" class="btn-submit" value="Ingresar">
 	</form>

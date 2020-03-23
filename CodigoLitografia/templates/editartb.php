@@ -64,11 +64,11 @@ $resultado = $gsent->fetchAll();
     <div class="col-lg-5 ">
         <form action="../includes/editarprod.php" method="POST">
             <h2> Digite el id y los datos del producto a actualizar:</h2>
-            <input type="text" name="Idprod" value="Id producto" class="form-control">
-            <input type="text" name="Cantidadp" value="Numero unidades" class="form-control ">
-            <input type="text" name="Descripcionp" value="Descripcion" class="form-control ">
-            <input type="text" name="Costo" value="Costo" class="form-control ">
-            <input type="text" name="Venta" value="Precio Venta" class="form-control ">
+            <input type="text" name="Idprod" placeholder="Id producto" class="form-control">
+            <input type="text" name="Cantidadp" placeholder="Numero unidades" class="form-control ">
+            <input type="text" name="Descripcionp" placeholder="Descripcion" class="form-control ">
+            <input type="text" name="Costo" placeholder="Costo" class="form-control ">
+            <input type="text" name="Venta" placeholder="Precio Venta" class="form-control ">
             <button class="btn btn-primary mt-3"> Editar </button>
         </form>
         <form action="tablas.php">

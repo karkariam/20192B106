@@ -1,6 +1,4 @@
 <?php include "CodigoLitografia/includes/headerIndex.php"; ?>
-<br><br>
-
 <article>
     <div class="ImagenIndex">
         <h1 class="TituloIndex"><br>

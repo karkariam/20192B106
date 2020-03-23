@@ -83,12 +83,12 @@ if ($_POST) {
     <div class="col-lg-5 ">
         <form action="tablas.php" method="POST">
             <h2> Agregar productos:</h2>
-            <input type="text" name="id" value="Id producto" class="form-control">
-            <input type="text" name="Cantidadp" value="Numero unidades" class="form-control ">
-            <input type="text" name="Descripcionp" value="Descripcion" class="form-control ">
-            <input type="text" name="Costo" value="Costo" class="form-control ">
-            <input type="text" name="Venta" value="Precio Venta" class="form-control ">
-            <input type="text" name="Fk_idprove_proveedores" value="Fk de proveedor" class="form-control ">
+            <input type="text" name="id" placeholder="Id producto" class="form-control">
+            <input type="text" name="Cantidadp" placeholder="Numero unidades" class="form-control ">
+            <input type="text" name="Descripcionp" placeholder="Descripcion" class="form-control ">
+            <input type="text" name="Costo" placeholder="Costo" class="form-control ">
+            <input type="text" name="Venta" placeholder="Precio Venta" class="form-control ">
+            <input type="text" name="Fk_idprove_proveedores" placeholder="Fk de proveedor" class="form-control ">
             <button class="btn btn-primary mt-3"> Agregar </button>
         </form>
         <form action="editartb.php">

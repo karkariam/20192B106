@@ -62,7 +62,7 @@ $resultado = $gsent->fetchAll();
     <div class="col-lg-5 ">
         <form action="../includes/borrartb.php" method="POST">
             <h2> borrar productos:</h2>
-            <input type="text" name="id" value="Id producto" class="form-control">
+            <input type="text" name="id" placeholder="Id producto" class="form-control">
             <button class="btn btn-primary mt-3"> borrar </button>
         </form>
         <form action="tablas.php">

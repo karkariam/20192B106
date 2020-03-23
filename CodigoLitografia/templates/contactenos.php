@@ -32,36 +32,8 @@
         <p>Estudiante de 7 semestre de ingeniería de sistemas universidad industrial de Santander.
         </p>
     </div>
-    <br>
-    <h1>Para una asistencia personalizada por favor diligencie este formulario:</h1>
+
 </div>
-
-<section class="main">
-    <!-- Formulario para contacto-->
-    <div class="contenedor">
-        <form class="form" action="correo.php" method="POST">
-            <div class="form-header">
-                <h1 class="form-title">C<span>ontactenos</span></h1>
-            </div>
-            <label for="nombre" class="form-label">Nombre:</label>
-            <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
-
-            <label for="telefono" class="form-label">Telefono:</label>
-            <input type="text" id="telefono" class="form-input" placeholder="Escriba su telefono">
-
-            <label for="correo" class="form-label">Correo Electronico:</label>
-            <input type="email" id="correo" class="form-input" placeholder="Escriba su correo">
-
-            <label for="mensaje" class="form-label">Mensaje:</label>
-            <textarea id="mensaje" class="form-textarea" placeholder="Aqui escriba su mensaje"></textarea>
-            <input type="submit" class="btn-submit" value="Enviar">
-            <script src='https://www.google.com/recaptcha/api.js'></script>
-
-        </form>
-    </div>
-    <br>
-</section>
-
 <!-- Controles del acordeon -->
 <script>
     var acc = document.getElementsByClassName("accordion");
