@@ -12,12 +12,16 @@ $sexo = $_POST['sexo'];
 $correo = $_POST['correo'];
 $frecuencia = $_POST['frecuencia'];
 $lugar = $_POST['lugar'];
+$lugar2 = $_POST['lugar2'];
 $compras = $_POST['compras'];
 $tipo = $_POST['tipo'];
 $hora = $_POST['hora'];
 $uso = $_POST['uso'];
 $hacer = $_POST['hacer'];
+$hacer2 = $_POST['hacer2'];
 $fecha = $_POST['fecha'];
+
+
 
 $sql_agregar = "INSERT INTO encuesta (nombre,sexo,correo,frecuencia,lugar,compras,tipo,hora,uso,hacer,fecha) VALUES(?,?,?,?,?,?,?,?,?,?,?)";
 $sentencia_agregar = $pdo->prepare($sql_agregar);
