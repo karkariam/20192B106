@@ -4,13 +4,13 @@
                 <!-- contenedor enlaces -->
                 <div class=" text-center col-sm-12 col-md-6 col-lg-4">
                     <a href="/20192B106/index.php" title="Ir al inicio">Inicio</a> /
-                    <a href="proctyservicios.php" title="Servicios que ofrece la litografía Angarita Ardila">Productos y Servicios</a> /
                     <a href="acerca_de.php" title="Que es la litografía Angarita Ardila">Acerca de nosotros</a> /
                     <a href="ubicacion.php" title="Donde esta la litografía Angarita Ardila">Ubicación</a> /
                     <a href="contactenos.php" title="Contacta con nosotros">Contactenos</a> /
-                    <a href="formulario.php" title="Formulario">Formulario</a> /
                     <a href="preguntas.php" title="Preguntas Frecuentes">Preguntas Frecuentes</a> /
-                    <a href="matriz.php" title="Formulario">Multiplicar matrices</a>
+                    <a href="matriz.php" title="Formulario">Multiplicar matrices</a>/
+                    <a href="subir.php" title="Formulario">Subir archivos</a>/
+                    <a href="tablas.php" title="Formulario">Ir a crud</a>
                 </div>
                 <!-- contenedor informacion general -->
                 <div class=" text-center col-sm-12 col-md-6 col-lg-4">

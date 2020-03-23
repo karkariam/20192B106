@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+session_start();
 
 <head>
     <meta charset="UTF-8">
@@ -30,7 +31,6 @@
                     <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Productos y Servicios</a>
                         <div class="dropdown-menu text-dark">
-                            <a class="dropdown-item" href="CodigoLitografia/templates/proctyservicios.php">Productos</a>
                             <a class="dropdown-item" href="CodigoLitografia/templates/comercial.php">Papeleria comercial</a>
                             <a class="dropdown-item" href="CodigoLitografia/templates/miscelanea.php">Miscelanea</a>
                         </div>
@@ -40,7 +40,8 @@
                     <a class="nav-link text-white" href="CodigoLitografia/templates/ubicacion.php">Ubicacion</a>
                     <a class="nav-link text-white" href="CodigoLitografia/templates/contactenos.php">Contacto</a>
                     <a class="nav-link text-white" href="CodigoLitografia/templates/preguntas.php">Preguntas Frecuentes</a>
-                    <a class="nav-link text-white" href="CodigoLitografia/templates/formulario.php"><b>Formulario</b></a>
+                    <a class="nav-link text-white" href="CodigoLitografia/templates/ingresar.php"><b>ingresar</b></a>
+                    <a class="nav-link text-white" href="CodigoLitografia/includes/logout.php"><b>Log-out</b></a>
                 </div>
             </div>
         </nav>

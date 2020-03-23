@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+session_start();
 
 <head>
     <meta charset="UTF-8">
@@ -29,7 +30,6 @@
                     <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Productos y Servicios</a>
                         <div class="dropdown-menu text-dark">
-                            <a class="dropdown-item" href="proctyservicios.php">Productos</a>
                             <a class="dropdown-item" href="comercial.php">Papeleria comercial</a>
                             <a class="dropdown-item" href="miscelanea.php">Miscelanea</a>
                         </div>
@@ -39,7 +39,8 @@
                     <a class="nav-link text-white" href="ubicacion.php">Ubicacion</a>
                     <a class="nav-link text-white" href="contactenos.php">Contacto</a>
                     <a class="nav-link text-white" href="preguntas.php">Preguntas Frecuentes</a>
-                    <a class="nav-link text-white" href="formulario.php"><b>Formulario</b></a>
+                    <a class="nav-link text-white" href="ingresar.php"><b>Ingresar</b></a>
+                    <a class="nav-link text-white" href="../includes/logout.php"><b>Log-out</b></a>
                 </div>
             </div>
         </nav>

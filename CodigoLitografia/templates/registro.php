@@ -17,7 +17,6 @@
       $email = $_POST['email'];
 
       $campos = array();
-
       if ($nombre == "") {
         array_push($campos, "El campo Nombre no pude estar vacío");
       }

@@ -4,13 +4,14 @@
                 <!-- enlaces -->
                 <div class=" text-center col-sm-12 col-md-6 col-lg-4">
                     <a href="/20192B106/index.php" title="Ir al inicio">Inicio</a> /
-                    <a href="CodigoLitografia/templates/proctyservicios.php" title="Servicios que ofrece la litografía Angarita Ardila">Productos y Servicios</a> /
                     <a href="CodigoLitografia/templates/acerca_de.php" title="Que es la litografía Angarita Ardila">Acerca de nosotros</a> /
                     <a href="CodigoLitografia/templates/ubicacion.php" title="Donde esta la litografía Angarita Ardila">Ubicación</a> /
                     <a href="CodigoLitografia/templates/contactenos.php" title="Contacta con nosotros">Contactenos</a> /
-                    <a href="CodigoLitografia/templates/formulario.php" title="Formulario">Formulario</a> /
                     <a href="CodigoLitografia/templates/preguntas.php" title="Preguntas Frecuentes">Preguntas Frecuentes</a> /
-                    <a href="CodigoLitografia/templates/matriz.php" title="Formulario">Multiplicar matrices</a>
+                    <a href="CodigoLitografia/templates/matriz.php" title="Formulario">Multiplicar matrices</a>/
+                    <a href="CodigoLitografia/includes/base.php" title="Formulario">Generar base de datos</a>/
+                    <a href="CodigoLitografia/templates/subir.php" title="Formulario">Subir archivos</a>/
+                    <a href="CodigoLitografia/templates/tablas.php" title="Formulario">Ir a crud</a>
                 </div>
                 <!-- informacion gral -->
                 <div class=" text-center col-sm-12 col-md-6 col-lg-4">

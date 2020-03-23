@@ -29,6 +29,7 @@ $password = "H2trKsshRb";
 $db = "20192b106";
 
 $conexion = new mysqli($servidor, $nombreusuario, $password, $db);
+
 //crear tablas
 //crear tabla Clientes
 $sql = "CREATE TABLE IF NOT EXISTS CLientes(
@@ -188,12 +189,12 @@ if ($conexion->connect_error) {
 echo "Conexión exitosa...";
 
 $sql = "INSERT INTO Clientes (Idcliente, Nombre,Apellido, Contraseña, Telefono, Email, Direccion) Values
-(1,'Claudia', 'Lopez','ester123',6559874,'claudial@gmail.com','calle 42 # 52-71 Bucaramanga'),
-(2,'Daniel', 'Sanabria','ester124',6559844,'dani@gmail.com','calle 43 # 52-71 Bucaramanga'),
-(3,'Santiago', 'Rodriguez','ester125',3208756943,'santi@gmail.com','calle 43 # 52-71 Centro'),
-(4,'Elsa', 'Chacon','ester126',6569844,'elsa@gmail.com','calle 13 # 52-71 Bucaramanga'),
-(5,'Andres', 'Garcia','ester127',6550844,'andi@gmail.com','calle 4 # 52-71 Bucaramanga'),
-(6,'Naruto', 'Usumaki','ester127',6550844,'el7mohokage@gmail.com','Aldea escondida entre la hoja')";
+(1,'Claudia', 'Lopez','ester1234',6559874,'claudial@gmail.com','calle 42 # 52-71 Bucaramanga'),
+(2,'Daniel', 'Sanabria','ester1244',6559844,'dani@gmail.com','calle 43 # 52-71 Bucaramanga'),
+(3,'Santiago', 'Rodriguez','ester1254',3208756943,'santi@gmail.com','calle 43 # 52-71 Centro'),
+(4,'Elsa', 'Chacon','ester1264',6569844,'elsa@gmail.com','calle 13 # 52-71 Bucaramanga'),
+(5,'Andres', 'Garcia','ester1274',6550844,'andi@gmail.com','calle 4 # 52-71 Bucaramanga'),
+(6,'Naruto', 'Usumaki','ester1274',6550844,'el7mohokage@gmail.com','Aldea escondida entre la hoja')";
 
 if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
@@ -283,10 +284,10 @@ if (mysqli_multi_query($conexion, $sql)) {
 
 $sql = "INSERT INTO Admins(CedulaA, Nombre ,Email, Contraseña)
 Values
- (123456789,'David','david@hotmail.com','1234'),
- (123456788,'Edinson','Edinson@hotmail.com','12345'),
- (123456787,'Jorge','Jorge@hotmail.com','123456'),
- (123456786,'Luz','Luz@hotmail.com','123478')";
+ (123456789,'David','david@hotmail.com','1234567'),
+ (123456788,'Edinson','Edinson@hotmail.com','1234567'),
+ (123456787,'Jorge','Jorge@hotmail.com','12334567'),
+ (123456786,'Luz','Luz@hotmail.com','1234567')";
 if (mysqli_multi_query($conexion, $sql)) {
     echo "Los datos se ingresaron correctamente...<br>";
 } else {
