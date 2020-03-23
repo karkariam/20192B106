@@ -32,6 +32,12 @@ if ($lugar === "Otro") { //si escojio otro validad lugar2
 		echo $hacer;
 		echo "<br>son diferentes hacer <br>";
 	}
+} else {
+	if ($hacer === "Otro") {  //si escojio otro validad hacer2
+		$hacer = $hacer2;
+		echo $hacer;
+		echo "<br>son diferentes hacer <br>";
+	}
 }
 
 $sql_agregar = "INSERT INTO encuesta (nombre,sexo,correo,frecuencia,lugar,compras,tipo,hora,uso,hacer,fecha) VALUES(?,?,?,?,?,?,?,?,?,?,?)";

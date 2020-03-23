@@ -23,13 +23,13 @@
     <button class="accordion">Jorge Garcia. </button>
     <div class="panel">
         <img src="../../DatosLitografia/Go.png " alt="3.png" style="width:50%;">
-        <p>agreguen una descripcion.
+        <p>discípulo de los seguidores superiores del gran Cthulhu, fabricante de bebidas artesanales de alta calidad producidas con trigo y cebada.
         </p>
     </div>
     <button class="accordion">Luz Angarita.</button>
     <div class="panel">
         <img src="../../DatosLitografia/Luz.png " alt="3.png" style="width:50%;">
-        <p>agreguen una descripcion.
+        <p>Estudiante de 7 semestre de ingeniería de sistemas universidad industrial de Santander.
         </p>
     </div>
     <br>
